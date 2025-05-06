@@ -1,4 +1,5 @@
 body {
+    background-color: #b6d4ff;
     font-family:"Times New Roman";
     background-size: cover; /* Supaya foto menutupi seluruh halaman */
     background-repeat: no-repeat;
@@ -148,3 +149,141 @@ a {
     font-size: 20px;
 }
 
+/* FORM LOGIN KHUSUS */
+.pihapi {
+    background: rgba(20, 79, 146, 0.85); /* Biru semi transparan */
+    max-width: 350px;
+    margin: 60px auto 0 auto;
+    padding: 32px 28px 24px 28px;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+.pihapi h3 {
+    color: #ffffff;
+    margin-bottom: 22px;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.pihapi form input[type="text"],
+.pihapi form input[type="password"] {
+    width: 88%;
+    padding: 12px 10px;
+    margin: 12px 0 18px 0;
+    border: none;
+    border-radius: 8px;
+    background: #8cc2ffc1;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: box-shadow 0.2s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.pihapi form input[type="text"]:focus,
+.pihapi form input[type="password"]:focus {
+    box-shadow: 0 0 0 2px #8ab9ff;
+}
+
+.pihapi form button[type="submit"] {
+    width: 100%;
+    padding: 12px 0;
+    background: #8ab9ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.pihapi form button[type="submit"]:hover {
+    background: #ffffff;
+    color: #0e1e4dc1;
+}
+
+.pihapi p {
+    margin-top: 14px;
+    color: #000000;
+    font-size: 15px;
+    min-height: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* register */
+
+.pihapii {
+    background: rgba(20, 79, 146, 0.85); /* Biru semi transparan */
+    max-width: 350px;
+    margin: 60px auto 0 auto;
+    padding: 32px 28px 24px 28px;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+.pihapii h3 {
+    color: #ffffff;
+    margin-bottom: 22px;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.pihapii form input[type="text"],
+.pihapii form input[type="password"] {
+    width: 88%;
+    padding: 12px 10px;
+    margin: 12px 0 18px 0;
+    border: none;
+    border-radius: 8px;
+    background: #8cc2ffc1;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: box-shadow 0.2s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.pihapii form input[type="text"]:focus,
+.pihapii form input[type="password"]:focus {
+    box-shadow: 0 0 0 2px #8ab9ff;
+}
+
+.pihapii form button[type="submit"] {
+    width: 100%;
+    padding: 12px 0;
+    background: #8ab9ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.pihapii form button[type="submit"]:hover {
+    background: #ffffff;
+    color: #0e1e4dc1;
+}
+
+.pihapii p {
+    margin-top: 14px;
+    color: #000000;
+    font-size: 15px;
+    min-height: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
