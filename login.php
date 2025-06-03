@@ -1,5 +1,4 @@
 <?php
-    session_start(); 
     include "database.php";
 
     $login_message = "";
@@ -16,8 +15,7 @@
 
         if($result->num_rows > 0) {
             $data = $result->fetch_assoc();
-            $_SESSION['username'] = $username;
-            header("Location: index.php");
+            header("Location: index.html");
             exit;
         }else{
             $login_message = "Username atau password anda salah</br>Coba Lagi";
